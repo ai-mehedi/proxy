@@ -2,7 +2,8 @@
 
 # Update and install Shadowsocks-libev
 sudo apt update
-sudo apt install -y shadowsocks-libev
+sudo apt install -y shadowsocks-libev v2ray-plugin
+
 
 # Prompt for password
 read -p "Enter password for Shadowsocks: " ss_password
