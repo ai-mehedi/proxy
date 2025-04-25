@@ -19,9 +19,8 @@ sudo tee /etc/shadowsocks-libev/config.json > /dev/null <<EOF
     "password": "$ss_password",
     "timeout": 300,
     "method": "aes-256-gcm",
-    "fast_open": false,
-    "reuse_port": true,
-    "no_delay": true
+    "plugin": "v2ray-plugin",
+    "plugin_opts": "server;tls;host=www.microsoft.com"
 }
 EOF
 
